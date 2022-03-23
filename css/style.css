@@ -1,0 +1,433 @@
+/* Utility */
+* {
+    font-family: Helvetica;
+}
+
+.logo {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+.button-custom {
+    background-color: #5CB85F;
+    height: 36px;
+    border-radius: 2px;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+}
+
+.nav-link-custom {
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000 !important;
+}
+
+.hero1-text {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero2-text {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.hero3-text {
+    width: 468px;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+}
+
+.social-media-icon a {
+    text-decoration: none;
+}
+
+.social-media-icon img {
+    width: 32px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.social-media-icon .hero4-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.social-media-icon .hero3-text {
+    width: 100%;
+}
+
+.why-us-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Our Services */ 
+.our-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 104px 0 100px 0;
+}
+
+.our-services .our-services-text {
+    padding-top: 36px;
+}
+
+.our-services .our-services-images {
+    display: flex;
+}
+
+.our-services-images img {
+    width: 374px;
+}
+
+.our-services-text .marklist {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 16px 0px 16px 0;
+}
+
+.our-services-text .marklist img {
+    width: 24px;
+    margin-right: 16px;
+}
+
+/* Why Us */
+.why-us-custom {
+    margin-bottom: 100px;
+}
+
+.body-card {
+    padding: 24px;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+/* Testimonial Custom */
+.carousel-container {
+    width: 65%;
+}
+
+.testimonial-container {
+    margin: 40px 0 100px 0;   
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.testimonial-container .banner-body {
+    border-radius: 8px;
+    background-color: #F1F3FF;
+    width: 100%;
+    color: #000000;
+}
+
+.testimonial-container .banner-body .banner-body-text {
+    display: flex;
+    flex-direction: row;
+    margin: 69px 0;
+    width: 80%;
+}
+
+.testimonial-container .banner-body .banner-body-text .hero3-text{
+    width: 100%;
+}
+
+.banner-body-text .banner-text {
+    text-align: left;
+    width: 90%;
+}
+
+.banner-text .star-review i {
+    color: #F9CC00;
+}
+
+.banner-text .review {
+    margin: 8px 0 8px 0;
+}
+
+.banner-text .reviewer p {
+    font-weight: 700;
+}
+
+.banner-body-text .banner-image img {
+    margin-right: 46px;
+    width: 80px;
+}
+
+.testimonial-container .carousel-button {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-container .carousel-button img{
+    width: 32px;
+    margin: 24px 24px 0 0;
+}
+
+/* CTA Banner */
+.row-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-body {
+    display: flex;
+    justify-content: center;
+    background-color: #0D28A6;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.banner-body-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0;
+}
+
+/* FAQ */
+.accordion-item {
+    margin-bottom: 16px;
+    border: 0px solid #D4D4D4;
+}
+
+.accordion-body {
+    border: 1px solid #D4D4D4;
+}
+
+.accordion-button {
+    border: 1px solid #D4D4D4;
+    font-size: 14px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+/* Footer */
+.footer-custom {
+    /* background-color: red; */
+    margin-bottom: 100px;
+}
+
+.footer-custom .hero3-text {
+    width: auto;
+    margin-bottom: 16px;
+}
+
+.footer-custom .nav-link-custom {
+    padding: 0;
+    margin-bottom: 16px;
+    /* background-color: red; */
+}
+
+/* Desktop Display */
+@media (min-width: 950px) {
+    .faq {
+        margin: 100px 0 150px 0;
+    }
+
+    .jumbotron-custom {
+        background-color: #F1F3FF;
+        height: 480px;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        z-index: 1;
+    }
+
+    .jumbotron-custom .bg {
+        z-index: 2;
+        top: 60%;
+        width: 50%;
+        left: 50%;
+        bottom: 0;
+        position: absolute;
+        background: #0D28A6;
+        border-radius: 60px 0px 0px 0px;
+    }
+    
+    .navbar-nav-custom {
+        display: flex;
+        justify-content: space-between;
+        width: 440px;
+    }
+
+    .offcanvas-custom {
+        display: none;
+    }
+
+    .jumbotron-row {
+        height: 370px;
+    }
+
+    .jumbotron-text {
+        padding-top: 40px;
+    }
+
+    .jumbotron-image {
+        display: flex;
+        align-items: center;
+        z-index: 3;
+    }
+
+    .jumbotron-image .img {
+        width: 100%;
+    }
+    
+    .jumbotron-image .img img {
+        width: 110%;
+    }
+
+    .our-services .our-services-text {
+        padding-top: 36px;
+    }
+
+    .our-services .our-services-images {
+        justify-content: center;
+    }
+
+    .hero2-text {
+        width: 468px;
+    }
+
+    .body-card-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .body-card {
+        width: 23%;
+    }
+}
+
+/* Mobile Display */ 
+@media (max-width:950px) {
+    .jumbotron-custom {
+        height: auto;
+        padding-top: 100px;
+        background-color: #F1F3FF;
+        position: relative;
+        z-index: 1;
+    }
+
+    .jumbotron-custom .bg {
+        z-index: 2;
+        top: 85%;
+        width: 95%;
+        left: 5%;
+        bottom: 0;
+        position: absolute;
+        background: #0D28A6;
+        border-radius: 60px 0px 0px 0px;
+    }
+
+    .navbar-nav-custom {
+        display: none;
+    }
+
+    .offcanvas-end-custom {
+        width: 50%;
+    }
+
+    .offcanvas-header-custom {
+        padding-top: 35px;
+        padding-bottom: 0;
+    }
+
+    .jumbotron-image {
+        z-index: 3;
+    }
+
+    .jumbotron-image .img {
+        margin-top: 28px
+    }
+
+    .jumbotron-image .img img{
+        float: right;
+        width: 95%;
+    }
+
+    .our-services-images img {
+        width: 95%;
+    }
+
+    .why-us-header {
+        text-align: center;
+    }
+
+    .body-card-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .body-card {
+        width: 328px;  /* RESPONSIVE THIS*/
+        margin-top: 24px;
+    }
+
+    .testimonial-container {
+        width: 100%;
+    }
+    
+    .testimonial-container .banner-body .banner-body-text {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+
+    .banner-body-text .banner-image img {
+        margin: 0;
+        width: 80px;
+    }
+
+    .banner-body {
+        width: 340px;
+    }
+
+    .banner-body-text {
+        width: 70%;
+    }
+
+    .banner-text .star-review {
+        text-align: center;
+    }
+
+    .banner-text .star-review i {
+        margin: 24px 0;
+    }
+
+    .faq-header {
+        text-align: center;
+    }
+
+    .faq-header .hero1-text{
+        font-size: 24px;
+    }
+
+    .faq {
+        margin: 60px 0 60px 0;
+    }
+
+    .banner-body-text .hero1-text{
+        font-size: 24px;
+    }
+
+    .hero2-text {
+        width: 100%;
+    }
+
+    .hero3-text {
+        width: 100%;
+    }
+}
